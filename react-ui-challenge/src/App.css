@@ -181,4 +181,10 @@
     right: 0;
     border-right-color: var(--border);
   }
+
+  .button{
+    color: orange;
+    shape-image-threshold: square;
+    height: 50px;
+    }
 }

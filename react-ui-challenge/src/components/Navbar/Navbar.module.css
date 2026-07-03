@@ -1,0 +1,46 @@
+nav {
+    position: fixed;
+    top: 0;
+    height: 65px;
+    width: 75vw;
+    background-color: rgb(32, 32, 34)
+}
+
+
+.content {
+    margin: auto;
+    display: flex;
+    align-items: top; 
+    justify-content: space-between;
+    
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.link
+{
+   text-decoration: none;
+   color: white;
+   padding: 10px 15px;
+   cursor:pointer;
+   position: left;
+}
+
+.link:hover {
+    color:royalblue;
+
+}
+.profile-icon {
+    height: 40px;
+    width: 40px;
+    background-color: #EFF;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+    shape-image-threshold: square;
+}
