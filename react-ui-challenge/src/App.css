@@ -187,4 +187,21 @@
     shape-image-threshold: square;
     height: 50px;
     }
+
+
+}
+.hero {
+  background-color: rgb(32, 32, 34);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  min-height: 400px;
+  color: white;
+  
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
