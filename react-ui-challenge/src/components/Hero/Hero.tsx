@@ -19,13 +19,6 @@ export const Hero = () => {
      </div>
        <img src={fruit} alt="fruit" />
      </div>
-     <div className="section">
-      <div className="container">
-        <Text variant={'h1'} >Orange Benefit  </Text>
-         <img src={mugorange} alt="OrangeMug" /> 
-            <button style={{color:'white' , backgroundColor:'orange', height:'50px',width:'120px'}}> LEARN MORE</button>
-        </div>
-     </div>
     </div>
   )
 }
