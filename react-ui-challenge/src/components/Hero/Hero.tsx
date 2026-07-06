@@ -1,6 +1,7 @@
 import './Hero.module.css'
 import { Text } from '../Text/Text'
 import mugorange from '../../assets/Mug_and_Orange.png'
+import fruit from '../../assets/FruitImage.png'
 
 export const Hero = () => {
   return (
@@ -16,6 +17,7 @@ export const Hero = () => {
       <button style={{color:'white' , backgroundColor:'orange', height:'50px',width:'120px'}}> LEARN MORE</button>
     
      </div>
+       <img src={fruit} alt="fruit" />
      </div>
      <div className="section">
       <div className="container">
