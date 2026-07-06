@@ -1,6 +1,9 @@
-import './App.css'
+import  './App.css'
 import { Text } from './components/Text/Text'
 import { Navbar } from './components/Navbar/Navbar'
+import fruit from './assets/FruitImage.png'
+
+
 
 
 
@@ -11,11 +14,14 @@ function App() {
      <>
      <Navbar /> <br /><br /><br />
 
-     <div style={{backgroundColor:'rgb(32, 32, 34)'}} >
-      <Text variant='h1'>Anida Dedelay</Text>
+    <div className="hero">
+      <div className="hero-text">
+      <Text variant='h1' >Anida Dedelay</Text>
       <Text variant={'h2'}> BEST HEALTHY SALAD SERVED </Text>
-      <button style={{color:'white' , backgroundColor:'orange', height:'60px',width:'60px'}}> Learn More</button>
+      <button style={{color:'white' , backgroundColor:'orange', height:'60px',width:'90px'}}> Learn More</button>
     
+     </div>
+       <img src={fruit} alt="fruit" />
      </div>
 
     </>
