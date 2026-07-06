@@ -1,8 +1,8 @@
 nav {
-    position: fixed;
+    position: center;
     top: 0;
     height: 65px;
-    width: 100%;
+    width: 90%;
     background-color: rgb(32, 32, 34)
 }
 
@@ -37,7 +37,8 @@ nav {
 .profile-icon {
     height: 40px;
     width: 40px;
-    background-color: #EFF;
+    background-color: rgb(42, 42, 44);
+  display: flex;;
     display: flex;
     justify-content: center;
     align-items:center;
