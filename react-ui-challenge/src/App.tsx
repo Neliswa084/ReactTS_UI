@@ -12,9 +12,11 @@ function App() {
 
   return (
      <>
-     <Navbar /> <br /><br /><br />
+     
+     <Navbar />
 
     <div className="hero">
+      
       <div className="hero-text">
       <Text variant='h1' >Anida Dedelay</Text>
       <Text variant={'h2'}> BEST HEALTHY SALAD SERVED </Text>
