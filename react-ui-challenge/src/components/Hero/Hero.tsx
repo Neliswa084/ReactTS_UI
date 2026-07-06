@@ -16,8 +16,6 @@ export const Hero = () => {
       <button style={{color:'white' , backgroundColor:'orange', height:'50px',width:'120px'}}> LEARN MORE</button>
     
      </div>
-  
-      
      </div>
      <div className="section">
       <div className="container">
