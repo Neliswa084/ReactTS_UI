@@ -4,10 +4,6 @@ import { Navbar } from './components/Navbar/Navbar'
 import fruit from './assets/FruitImage.png'
 import mugorange from'./assets/Mug_and_Orange.png'
 
-
-
-
-
 function App() {
 
 
@@ -28,10 +24,12 @@ function App() {
   
      <img src={fruit} alt="fruit" style={{alignContent:'center'}}/>
      </div>
-     <div className="hero">
-        <Text variant={'h1'}>Orange Benefit  </Text>
-        <img src={mugorange} alt="OrangeMug"/>
-        
+     <div className="section">
+      <div className="container">
+        <Text variant={'h1'} >Orange Benefit  </Text>
+         <img src={mugorange} alt="OrangeMug" /> 
+            <button style={{color:'white' , backgroundColor:'orange', height:'50px',width:'120px'}}> LEARN MORE</button>
+        </div>
      </div>
     </>
   )
