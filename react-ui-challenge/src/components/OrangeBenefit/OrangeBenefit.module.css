@@ -1,0 +1,49 @@
+.left{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap: 20px;
+    max-width: 400px;
+}
+.right img{
+    width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+.section {
+  background-color: rgb(32, 32, 34);
+  padding: 60px 40px;
+  color: white;
+width: 90%;
+margin: 0 60px;
+  text-align: left;
+}
+
+.container {
+  /* max-width: 1200px; */
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  gap: 40px;
+}
+.learnMore-btn{
+ 
+  color: white;
+  background-color: orange;
+  height: 50px;
+  width: 120px;
+ 
+}
+.icon-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.orange-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
