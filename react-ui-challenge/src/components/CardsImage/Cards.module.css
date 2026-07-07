@@ -1,19 +1,14 @@
 .item-image{
-    width: 140px;
-    height: 200px;
-    border-radius: 4px;
-  display: flex;
+  width: 30%;    /* image fills full card width */
+  height: 200px;
+  object-fit: cover;
 }
 .item-card{
-    border-radius: 8px;
-    background-color: rgb(46, 49, 49);
-    padding: 12px;
-    /* width: px; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; 
-    justify-content: center;
-    color: white;
+ background-color: rgb(46, 49, 49);
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  flex: 1;  
    
     
     

@@ -1,45 +1,8 @@
-/* 
-
-  .button{
-    color: orange;
-    shape-image-threshold: square;
-    height: 50px;
-  
-
-    }
-
-
-.hero {
-  background-color: rgb(42, 42, 44);
+.cards-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 60px 40px;
-  min-height: 300px;
-  color: white;
-   width: 90%;
-   margin: 0 60px;
-  
-}
-.hero-text {
-  display: flex;
-  flex-direction: column;
   gap: 20px;
-  text-align: right;
-}
-.section {
-  background-color: black;
+  padding: 40px;
+  background-color: rgb(32, 32, 34);
   width: 90%;
-  padding: 0 40px;
-  text-align: left;
-  margin: 0 60px;
+margin: 0 60px;
 }
-.container{
-  color: black;
-  max-width: 1200px;
-  margin: 0 60px;
-  padding: 0 40px;
-}
-.text{
-text-align:start;
-} */
