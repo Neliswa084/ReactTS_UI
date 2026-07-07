@@ -1,0 +1,37 @@
+.item-image{
+    width: 140px;
+    height: 200px;
+    border-radius: 4px;
+  display: flex;
+}
+.item-card{
+    border-radius: 8px;
+    background-color: rgb(46, 49, 49);
+    padding: 12px;
+    /* width: px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    color: white;
+   
+    
+    
+}
+.section {
+  background-color: rgb(32, 32, 34);
+  padding: 60px 40px;
+  color: white;
+width: 90%;
+margin: 0 60px;
+  text-align: left;
+}
+.container {
+  /* max-width: 1200px; */
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  gap: 40px;
+}
