@@ -1,28 +1,23 @@
-
-
-.container{
-    background-color: rgb(39, 38, 38);
+.flexbox-container {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  background-color: rgb(39, 38, 38);
+  color: white;
 }
 
-
-.footer-cont{
-    margin: auto;
-    color: black;
-    size: 0cqi;
-}
-
-.item-image{
-   width: 30%;
-}
-.container {
+.flexboxItem {
+  flex: 1;       
   position: relative;
-  text-align: center;
-  color: white;
-  width: 20%;
-  
-
   
 }
+
+.item-image {
+  width: 200px;
+  /* height: 400px;           */
+  object-fit: cover;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -30,77 +25,27 @@
   transform: translate(-50%, -50%);
   background-color: white;
   color: black;
-  font: bold;
-}
-.second{
-    display: flex;
-    flex-direction: column;
-      justify-content: space-between;
-     gap: 40px;
-}
-.third{
-    display: flex;
-    flex-direction: column;
+  font-weight: bold;
+  padding: 10px 20px;
 }
 
-.flexbox-container{
-
-}
-.flexboxItem{
-    width: 200px;
-    margin: 10px;
-    border: 3px;
-    background-color: white;
+.benefit-row {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-.flexbox-item-1{
-    min-height: 50px;
-    
-   width: 200px;
-    margin: 10px;
-    border: 3px;
-    background-color: white;
-}
-.flexbox-item-2{
-    min-height: 200px;
-}
-.flexbox-item-2{
-    min-height: 300px;
-}
-
- .flexbox-container{
-    display: flex;
-    flex-direction: row;
-    /* align-items:flex-start; */
-    align-content:space-evenly;
-
- border: 5px solid blue;
-width: 94%;
-margin: 0 60px;
-
-
-}
-.flexboxItem{
-    width: 100%;
-    margin: 10px;
-    border: 3px;
-    background-color: red;
-    display: flex;
-    flex-direction: row;
-    /* align-items:flex-start; */
-    align-content: space-between;
-      width: 20%;
-       position: relative;
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  color: white;
-  width: 20%;
+  gap: 8px;
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  color: black;
-  font: bold;
+
+
+.icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }

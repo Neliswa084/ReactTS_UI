@@ -20,7 +20,6 @@ export const OrangeBenefit = () => {
     <div className={styles.right}>
       <img src={mugorange} alt="juice" />
     </div>
-
   </div>
 </div>
   )
