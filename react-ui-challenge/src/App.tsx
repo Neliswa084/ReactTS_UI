@@ -4,10 +4,13 @@ import {Hero} from './components/Hero/Hero'
 import { OrangeBenefit } from './components/OrangeBenefit/OrangeBenefit'
 import { useState } from 'react'
 import { Cards } from './components/CardsImage/Cards'
+import { LastSection } from './components/LastSection/LastSection'
+
 
 import OrangeOne from './assets/Orange_One.png'
 import OrangeTwo from './assets/Orange_two.png'
 import Fruits from './assets/picture3.png'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -20,6 +23,8 @@ function App() {
 
   return (
      <>
+     <div id='app-container'>
+  <div id='scrollable'>
      
      <Navbar />
      <Hero />
@@ -35,7 +40,12 @@ function App() {
       })
      }
      </div>
-   
+
+     <LastSection />
+     </div>
+     <Footer/>
+     
+     </div>
      
 
     </>

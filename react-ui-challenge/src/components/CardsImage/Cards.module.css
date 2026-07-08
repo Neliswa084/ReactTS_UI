@@ -1,5 +1,5 @@
 .item-image{
-  width: 30%;    /* image fills full card width */
+  width: 30%;   
   height: 200px;
   object-fit: cover;
 }
@@ -9,9 +9,7 @@
   overflow: hidden;
   color: white;
   flex: 1;  
-   
-    
-    
+         
 }
 .section {
   background-color: rgb(32, 32, 34);
@@ -21,6 +19,7 @@ width: 90%;
 margin: 0 60px;
   text-align: left;
 }
+
 .container {
   /* max-width: 1200px; */
   width: 90%;

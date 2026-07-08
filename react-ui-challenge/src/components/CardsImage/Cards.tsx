@@ -17,7 +17,6 @@ export const Cards: React.FC<CardProps> = ({name, description, image}) => {
    <img className={styles['item-image']} src={image} alt={'image product'}/>
    <Text variant={'h2'} >{name}</Text>
    <Text variant={'p'}>{description}</Text>
-
     </div>
   )
 }

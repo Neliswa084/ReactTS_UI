@@ -1,0 +1,53 @@
+.item-card{
+ /* background-color: rgb(46, 49, 49);
+  border-radius: 20px; */
+  height: 190px;
+  overflow: hidden;
+  color: white;
+  flex: 1;  
+  line-height: 1.6;
+         
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  background-color: rgb(32, 32, 34);
+  width: 90%;
+ margin: 0 60px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: right;
+}
+  .card{
+  background-color: white;
+  border-radius: 20px; 
+  height: 190px;
+  overflow: hidden;
+  color: black;
+  flex: 1;  
+  line-height: 1.6;
+  
+         
+}
+.headMore-btn{
+ 
+  color: white;
+  background-color: orange;
+  height: 50px;
+  width: 100px;
+  align-items: center;
+  align-self:center;
+  align-items: flex-end;
+  position: bottom;
+
+  
+}
+.image{
+    width: 30%;
+}
