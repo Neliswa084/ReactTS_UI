@@ -26,7 +26,7 @@
   background-color: white;
   color: black;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 10px 20px;  
 }
 
 .benefit-row {
@@ -48,4 +48,9 @@
   width: 50px;
   height: 50px;
   object-fit: contain;
+}
+@media (max-width: 768px) {
+  .flexbox-container {
+    flex-direction: column;
+  }
 }

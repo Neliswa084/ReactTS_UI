@@ -9,6 +9,7 @@ import drinkIcon from '../../assets/coffee.png'
 export default function Footer() {
   return (
     <div className={styles['flexbox-container']}>
+      
         <div className={styles['flexboxItem']}>
          <img  src={Picture} alt="Fotter picture" className={styles['item-image']}/>
          <div className={styles['centered']}>Hello</div>

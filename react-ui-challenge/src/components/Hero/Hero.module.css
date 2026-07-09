@@ -67,3 +67,12 @@ text-align:start;
 .learnMore-btn:hover {
   background-color: rgb(255, 142, 4);  
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+}

@@ -14,7 +14,7 @@ type CardProps={
 export const Cards: React.FC<CardProps> = ({name, description, image}) => { 
   return (
     <div className={styles['item-card']}> 
-   <img className={styles['item-image']} src={image} alt={'image product'}/>
+   <img className={styles['item-image']} src={image} alt={'image product'}/> 
    <Text variant={'h2'} >{name}</Text>
    <Text variant={'p'}>{description}</Text>
     </div>
