@@ -1,7 +1,7 @@
 import { Text } from '../Text/Text'
 import mugorange from '../../assets/Mug_and_Orange.png'
 import styles from './OrangeBenefit.module.css'
-import orange from '../../assets/Orange.png'
+import orange from '../../assets/orange.png'
 
 export const OrangeBenefit = () => {
   return (
