@@ -54,3 +54,18 @@
     flex-direction: column;
   }
 }
+@media (max-width: 600px) {
+  .flexbox-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1200px) {
+  .flexbox-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) {
+  .flexbox-container {
+    flex-direction: column;
+  }
+}

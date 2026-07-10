@@ -16,3 +16,32 @@ box-sizing: border-box;
     padding: auto;
     
 }
+@media (max-width: 768px) {
+ #app-container{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+ #app-container{
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) {
+ #app-container{
+    flex-direction: column;
+  }
+}
+@media (max-width: 1200px) {
+ #app-container{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.cards-container{
+    flex-direction: column;
+     float: none;
+     
+  }
+}
+ 

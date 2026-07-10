@@ -76,3 +76,27 @@ text-align:start;
     width: 100%;
   }
 }
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+}
