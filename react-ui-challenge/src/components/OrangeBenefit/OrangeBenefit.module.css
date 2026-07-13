@@ -77,3 +77,11 @@ width: 100% ;
     flex-direction: column;
   }
 }
+
+@media (max-width: 350px)
+{
+  .right img{
+     width: 300px;
+
+  }
+}

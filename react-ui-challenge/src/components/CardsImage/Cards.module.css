@@ -33,19 +33,35 @@ margin: 0 60px;
   .cards-container {
     flex-direction: column;
   }
+  .item-image{
+    width: 50%;
+    
+  }
 }
 @media (max-width: 600px) {
   .cards-container {
     flex-direction: column;
+  }
+  .item-image{
+    width: 50%;
+    
   }
 }
 @media (max-width: 1200px) {
   .cards-container {
     flex-direction: column;
   }
+  .item-image{
+    width: 50%;
+    
+  }
 }
 @media (max-width: 993px) {
   .cards-container {
     flex-direction: column;
+  }
+  .item-image{
+    width: 50%;
+    
   }
 }
