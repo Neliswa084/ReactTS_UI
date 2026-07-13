@@ -1,4 +1,3 @@
-import React from 'react'
 import {Text} from '../Text/Text'
 import FruitImage from '../../assets/image.png'
 import styles from '../LastSection/LastSection.module.css'
