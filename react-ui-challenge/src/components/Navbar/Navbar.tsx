@@ -1,7 +1,6 @@
-import React from 'react'
 import {Text} from '../Text/Text'
 import styles from './Navbar.module.css'
-import { ContentContainer } from '../ContentContainer'
+
 
 
 export const Navbar = () => {
