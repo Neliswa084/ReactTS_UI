@@ -60,6 +60,10 @@ width: 100% ;
   .section {
     flex-direction: column;
   }
+  .right img{
+     width: 300px;
+
+  }
   
 }
 @media (max-width: 992px) {
@@ -78,10 +82,3 @@ width: 100% ;
   }
 }
 
-@media (max-width: 350px)
-{
-  .right img{
-     width: 300px;
-
-  }
-}
