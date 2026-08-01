@@ -1,4 +1,4 @@
-# Anida Dedelay — Fruit Restaurant 🍊
+# Anida Dedelay — Fruit Restaurant 
 
 ## Live Demo
 View Live here - https://react-ui-wn51.onrender.com/
